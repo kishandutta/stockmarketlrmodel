@@ -1,0 +1,37 @@
+{
+    "dataset": "Market.csv",
+    "target_variable": "Target_Next_Close",
+    "index_scope": "all",
+    "features": [
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Close_Lag1",
+        "Close_Lag2",
+        "Close_Lag5",
+        "SMA_5",
+        "SMA_10",
+        "Daily_Return",
+        "Intraday_Range",
+        "Log_Volume",
+        "Index"
+    ],
+    "train_metrics": {
+        "MAE": 59.9332,
+        "MSE": 16943.6846,
+        "RMSE": 130.1679,
+        "MAPE_percent": 0.934,
+        "R2_Score": 0.999767,
+        "Directional_Accuracy_percent": 51.09
+    },
+    "test_metrics": {
+        "MAE": 99.205,
+        "MSE": 34956.4336,
+        "RMSE": 186.9664,
+        "MAPE_percent": 0.8004,
+        "R2_Score": 0.99961,
+        "Directional_Accuracy_percent": 48.54
+    },
+    "intercept": 6523.405580800951
+}
